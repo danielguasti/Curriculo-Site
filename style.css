@@ -1,0 +1,109 @@
+/* Definições tamanho página e tamanho blocos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+#cabecalho {
+    background-image: url(uvv2.png);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#esquerda {
+    padding: 30px;
+    background-color: rgb(224, 221, 221);
+    width: 40%;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    align-items: left; 
+}
+
+#direita {
+    padding: 30px;
+    background-color: white;
+    width: 60%;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    align-items: left;
+    
+
+}
+
+html {
+    background-color: rgb(82, 82, 82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 800px;   
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+
+/* Estilização do Cabeçalho */
+#foto img {
+    border-radius: 50%;
+    
+}
+
+#foto {
+    padding-right: 5vh;
+}
+
+/* Estilizando parte esquerda e direita do corpo */
+.linha {
+    width: 60px;
+    height: 5px;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    
+}
+
+p,a {
+    text-align: left;
+    font-size: smaller;
+    
+}
+
+.ajuste {
+    height:30px;
+    width: 30px;;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+}
+
+.logos p,.logos a {
+    margin-left: 5px;
+}
+
+li {
+    font-size: smaller;
+}
+
+
